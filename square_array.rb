@@ -3,7 +3,6 @@ def square_array(array)
   array.collect {|numbers| numbers ** 2}
 end
 
-square_array(numbers)
 
 def square_array(array)
   new_a = []
@@ -14,4 +13,4 @@ def square_array(array)
   return new_a
 end
 
-square_array(numbers)
+
